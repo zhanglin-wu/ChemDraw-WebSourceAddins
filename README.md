@@ -32,6 +32,10 @@ Launch ChemDraw Office, and go to **Add-ins > Add-in Manager... > Add > Add from
   - `https://raw.githubusercontent.com/zhanglin-wu/ChemDraw-WebSourceAddins/master/Manifests/no-addins-field-manifest.json`
 8. A manifest containing different add-ins with duplicate names
   - `https://raw.githubusercontent.com/zhanglin-wu/ChemDraw-WebSourceAddins/master/Manifests/duplicate-names-manifest.json`
+9. A manifest containing an add-in with a name that is duplicate with an existing add-in name
+  - `https://raw.githubusercontent.com/zhanglin-wu/ChemDraw-WebSourceAddins/master/Manifests/addin-name-duplicate-with-existing-addin-manifest.json`
+10. A manifest containing different add-ins with names diff only by case-sensitive string comparison
+  - `https://raw.githubusercontent.com/zhanglin-wu/ChemDraw-WebSourceAddins/master/Manifests/case-sensitive-names-manifest.json`
 
 
 ## [Add-in Examples](https://github.com/zhanglin-wu/ChemDraw-WebSourceAddins/tree/master/Add-ins)

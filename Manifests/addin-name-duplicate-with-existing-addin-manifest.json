@@ -1,0 +1,9 @@
+{
+    "sourceName": "Add-in Name Duplicate with Existing Add-in",
+    "addins": [
+        {
+            "name": "ChemACX Explorer",
+            "metadataUrl": "https://zhanglin-wu.github.io/ChemDraw-WebSourceAddins/Add-ins/Hello%20World/chemdraw-addin-metadata.json"
+        }
+    ]
+}
