@@ -16,8 +16,9 @@ Launch ChemDraw Office, and go to **Add-ins > Add-in Manager... > Add > Add from
 ### Error Cases
 
 - Manifest 3. A manifest that is an empty string
-  - `xxxx`
-- Manifest 4. xxxx
+  - `https://raw.githubusercontent.com/zhanglin-wu/ChemDraw-WebSourceAddins/master/Manifests/empty-string-manifest.json`
+- Manifest 4. A manifest that contains an empty list of add-ins
+  - `https://raw.githubusercontent.com/zhanglin-wu/ChemDraw-WebSourceAddins/master/Manifests/empty-addin-list-manifest.json`
 
 
 ## [Add-in Examples](https://github.com/zhanglin-wu/ChemDraw-WebSourceAddins/tree/master/Add-ins)
