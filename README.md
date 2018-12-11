@@ -9,16 +9,21 @@ Launch ChemDraw Office, and go to **Add-ins > Add-in Manager... > Add > Add from
 ## [Manifest Examples](https://github.com/zhanglin-wu/ChemDraw-WebSourceAddins/tree/master/Manifests)
 
 ### Valid Add-ins
-- Manifest 1. A manifest containing all valid add-ins
+1. A manifest containing all valid add-ins
   - `https://raw.githubusercontent.com/zhanglin-wu/ChemDraw-WebSourceAddins/master/Manifests/all-valid-addins-manifest.json`
-- Manifest 2. xxxx
+2. A manifest containing duplicate add-ins
+  - `https://raw.githubusercontent.com/zhanglin-wu/ChemDraw-WebSourceAddins/master/Manifests/duplicate-addins-manifest.json`
 
 ### Error Cases
 
-- Manifest 3. A manifest that is an empty string
+1. A manifest that is an empty string
   - `https://raw.githubusercontent.com/zhanglin-wu/ChemDraw-WebSourceAddins/master/Manifests/empty-string-manifest.json`
-- Manifest 4. A manifest that contains an empty list of add-ins
+2. A manifest containing an empty list of add-ins
   - `https://raw.githubusercontent.com/zhanglin-wu/ChemDraw-WebSourceAddins/master/Manifests/empty-addin-list-manifest.json`
+3. A manifest containing a source name that is an empty string
+  - `https://raw.githubusercontent.com/zhanglin-wu/ChemDraw-WebSourceAddins/master/Manifests/empty-source-name-manifest.json`
+4. A manifest that is invalid JSON format data
+  - `https://raw.githubusercontent.com/zhanglin-wu/ChemDraw-WebSourceAddins/master/Manifests/invalid-json-format-manifest.json`
 
 
 ## [Add-in Examples](https://github.com/zhanglin-wu/ChemDraw-WebSourceAddins/tree/master/Add-ins)

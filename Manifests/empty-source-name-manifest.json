@@ -1,0 +1,9 @@
+{
+    "sourceName": "",
+    "addins": [
+        {
+            "name": "Hello World",
+            "metadataUrl": "https://zhanglin-wu.github.io/ChemDraw-WebSourceAddins/Add-ins/Hello%20World/chemdraw-addin-metadata.json"
+        }
+    ]
+}
