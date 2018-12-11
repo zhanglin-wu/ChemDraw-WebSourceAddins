@@ -11,8 +11,6 @@ Launch ChemDraw Office, and go to **Add-ins > Add-in Manager... > Add > Add from
 ### Valid Add-ins
 1. A manifest containing all valid add-ins
   - `https://raw.githubusercontent.com/zhanglin-wu/ChemDraw-WebSourceAddins/master/Manifests/all-valid-addins-manifest.json`
-2. A manifest containing duplicate add-ins
-  - `https://raw.githubusercontent.com/zhanglin-wu/ChemDraw-WebSourceAddins/master/Manifests/duplicate-addins-manifest.json`
 
 ### Error Cases
 
@@ -30,12 +28,19 @@ Launch ChemDraw Office, and go to **Add-ins > Add-in Manager... > Add > Add from
   - `https://raw.githubusercontent.com/zhanglin-wu/ChemDraw-WebSourceAddins/master/Manifests/no-source-name-field-manifest.json`
 7. A manifest containing no "addins" field
   - `https://raw.githubusercontent.com/zhanglin-wu/ChemDraw-WebSourceAddins/master/Manifests/no-addins-field-manifest.json`
-8. A manifest containing different add-ins with duplicate names
+8. A manifest containing duplicate add-ins (i.e. they have duplicate names and duplicate metadata URLs)
+  - `https://raw.githubusercontent.com/zhanglin-wu/ChemDraw-WebSourceAddins/master/Manifests/duplicate-addins-manifest.json`
+9. A manifest containing different add-ins with duplicate names
   - `https://raw.githubusercontent.com/zhanglin-wu/ChemDraw-WebSourceAddins/master/Manifests/duplicate-names-manifest.json`
-9. A manifest containing an add-in with a name that is duplicate with an existing add-in name
-  - `https://raw.githubusercontent.com/zhanglin-wu/ChemDraw-WebSourceAddins/master/Manifests/addin-name-duplicate-with-existing-addin-manifest.json`
-10. A manifest containing different add-ins with names diff only by case-sensitive string comparison
-  - `https://raw.githubusercontent.com/zhanglin-wu/ChemDraw-WebSourceAddins/master/Manifests/case-sensitive-names-manifest.json`
+10. A manifest containing add-ins with duplicate metadata URLs
+  - `https://raw.githubusercontent.com/zhanglin-wu/ChemDraw-WebSourceAddins/master/Manifests/duplicate-metadata-urls-manifest.json`
+11. A manifest containing an add-in with a name that is duplicate with an existing add-in name
+   - `https://raw.githubusercontent.com/zhanglin-wu/ChemDraw-WebSourceAddins/master/Manifests/addin-name-duplicate-with-existing-addin-manifest.json`
+12. A manifest containing different add-ins with names diff only by case-sensitive string comparison
+   - `https://raw.githubusercontent.com/zhanglin-wu/ChemDraw-WebSourceAddins/master/Manifests/case-sensitive-names-manifest.json`
+13. A manifest containing duplicate add-ins with an installed manifest, i.e. these two manifests contain duplicate add-ins, we can test them by installing the first manifest and then the second manifest
+   - First Manifest: `https://raw.githubusercontent.com/zhanglin-wu/ChemDraw-WebSourceAddins/master/Manifests/duplicate-addins-manifest1.json`
+   - Second Manifest: `https://raw.githubusercontent.com/zhanglin-wu/ChemDraw-WebSourceAddins/master/Manifests/duplicate-addins-manifest2.json`
 
 
 ## [Add-in Examples](https://github.com/zhanglin-wu/ChemDraw-WebSourceAddins/tree/master/Add-ins)

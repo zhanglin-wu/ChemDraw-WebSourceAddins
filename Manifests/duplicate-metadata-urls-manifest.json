@@ -1,0 +1,17 @@
+{
+    "sourceName": "Duplicate Metadata URLs",
+    "addins": [
+        {
+            "name": "Hello World",
+            "metadataUrl": "https://zhanglin-wu.github.io/ChemDraw-WebSourceAddins/Add-ins/Hello%20World/chemdraw-addin-metadata.json"
+        },
+        {
+            "name": "Document Data Importer and Exporter",
+            "metadataUrl": "https://zhanglin-wu.github.io/ChemDraw-WebSourceAddins/Add-ins/Document%20Data%20Importer%20and%20Exporter/chemdraw-addin-metadata.json"
+        },
+        {
+            "name": "Selection Monitor",
+            "metadataUrl": "https://zhanglin-wu.github.io/ChemDraw-WebSourceAddins/Add-ins/Hello%20World/chemdraw-addin-metadata.json"
+        }
+    ]
+}
