@@ -20,13 +20,17 @@ Launch ChemDraw Office, and go to **Add-ins > Add-in Manager... > Add > Add from
   - `https://raw.githubusercontent.com/zhanglin-wu/ChemDraw-WebSourceAddins/master/Manifests/empty-file-manifest.json`
 2. A manifest that is an empty JSON object
   - `https://raw.githubusercontent.com/zhanglin-wu/ChemDraw-WebSourceAddins/master/Manifests/empty-json-object-manifest.json`
-3. A manifest containing a source name that is an empty string
-  - `https://raw.githubusercontent.com/zhanglin-wu/ChemDraw-WebSourceAddins/master/Manifests/empty-source-name-manifest.json`
-4. A manifest containing an empty list of add-ins
-  - `https://raw.githubusercontent.com/zhanglin-wu/ChemDraw-WebSourceAddins/master/Manifests/empty-addin-list-manifest.json`
-5. A manifest that is invalid JSON format data
+3. A manifest that is invalid JSON format data
   - `https://raw.githubusercontent.com/zhanglin-wu/ChemDraw-WebSourceAddins/master/Manifests/invalid-json-format-manifest.json`
-6. A manifest containing different add-ins with duplicate names
+4. A manifest containing a source name that is an empty string
+  - `https://raw.githubusercontent.com/zhanglin-wu/ChemDraw-WebSourceAddins/master/Manifests/empty-source-name-manifest.json`
+5. A manifest containing an empty list of add-ins
+  - `https://raw.githubusercontent.com/zhanglin-wu/ChemDraw-WebSourceAddins/master/Manifests/empty-addin-list-manifest.json`
+6. A manifest containing no "soureName" field
+  - `https://raw.githubusercontent.com/zhanglin-wu/ChemDraw-WebSourceAddins/master/Manifests/no-source-name-field-manifest.json`
+7. A manifest containing no "addins" field
+  - `https://raw.githubusercontent.com/zhanglin-wu/ChemDraw-WebSourceAddins/master/Manifests/no-addins-field-manifest.json`
+8. A manifest containing different add-ins with duplicate names
   - `https://raw.githubusercontent.com/zhanglin-wu/ChemDraw-WebSourceAddins/master/Manifests/duplicate-names-manifest.json`
 
 
