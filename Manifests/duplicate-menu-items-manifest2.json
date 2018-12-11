@@ -1,0 +1,13 @@
+{
+    "sourceName": "Second Team",
+    "addins": [
+        {
+            "name": "API Version Viewer",
+            "metadataUrl": "https://zhanglin-wu.github.io/ChemDraw-WebSourceAddins/Add-ins/API%20Version%20Viewer/chemdraw-addin-metadata.json"
+        },
+        {
+            "name": "Selection Monitor",
+            "metadataUrl": "https://zhanglin-wu.github.io/ChemDraw-WebSourceAddins/Add-ins/Selection%20Monitor/chemdraw-addin-metadata.json"
+        }
+    ]
+}

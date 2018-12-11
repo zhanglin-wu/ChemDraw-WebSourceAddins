@@ -36,9 +36,15 @@ Launch ChemDraw Office, and go to **Add-ins > Add-in Manager... > Add > Add from
   - `https://raw.githubusercontent.com/zhanglin-wu/ChemDraw-WebSourceAddins/master/Manifests/duplicate-metadata-urls-manifest.json`
 11. A manifest containing an add-in with a name that is duplicate with an existing add-in name
    - `https://raw.githubusercontent.com/zhanglin-wu/ChemDraw-WebSourceAddins/master/Manifests/addin-name-duplicate-with-existing-addin-manifest.json`
-12. A manifest containing different add-ins with names diff only by case-sensitive string comparison
+12. A manifest containing add-ins with duplicate menu-item texts
+   - Test Case 1. In the same manifest, two different add-ins use duplicate menu-item texts
+     - `https://raw.githubusercontent.com/zhanglin-wu/ChemDraw-WebSourceAddins/master/Manifests/duplicate-menu-items-manifest.json`
+   - Test Case 2. In two manifests, an add-in from the first manifest and another add-in from the second manifest use duplicate menu-item texts, we can test them by installing the first manifest and then the second manifest
+     - First Manifest: `https://raw.githubusercontent.com/zhanglin-wu/ChemDraw-WebSourceAddins/master/Manifests/duplicate-menu-items-manifest1.json`
+     - Second Manifest: `https://raw.githubusercontent.com/zhanglin-wu/ChemDraw-WebSourceAddins/master/Manifests/duplicate-menu-items-manifest2.json`
+13. A manifest containing different add-ins with names diff only by case-sensitive string comparison
    - `https://raw.githubusercontent.com/zhanglin-wu/ChemDraw-WebSourceAddins/master/Manifests/case-sensitive-names-manifest.json`
-13. A manifest containing duplicate add-ins with an installed manifest, i.e. these two manifests contain duplicate add-ins, we can test them by installing the first manifest and then the second manifest
+14. A manifest containing duplicate add-ins with an installed manifest, i.e. these two manifests contain duplicate add-ins, we can test them by installing the first manifest and then the second manifest
    - First Manifest: `https://raw.githubusercontent.com/zhanglin-wu/ChemDraw-WebSourceAddins/master/Manifests/duplicate-addins-manifest1.json`
    - Second Manifest: `https://raw.githubusercontent.com/zhanglin-wu/ChemDraw-WebSourceAddins/master/Manifests/duplicate-addins-manifest2.json`
 
