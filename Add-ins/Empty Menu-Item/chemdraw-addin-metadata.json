@@ -1,0 +1,7 @@
+{
+    "description": "This is a simple example of ChemDraw add-in with empty menu-item.",
+    "version": "1.0",
+    "menuItemText": "",
+    "minimumAPIVersion": "1.0",
+    "url": "https://zhanglin-wu.github.io/ChemDraw-WebSourceAddins/Add-ins/Empty%20Menu-Item/main.html"
+}

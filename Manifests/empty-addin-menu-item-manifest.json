@@ -1,0 +1,9 @@
+{
+    "sourceName": "Source - Empty Menu-Item",
+    "addins": [
+        {
+            "name": "Empty Menu-Item",
+            "metadataUrl": "https://zhanglin-wu.github.io/ChemDraw-WebSourceAddins/Add-ins/Empty%20Menu-Item/chemdraw-addin-metadata.json"
+        }
+    ]
+}

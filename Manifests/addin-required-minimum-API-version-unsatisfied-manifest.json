@@ -1,0 +1,9 @@
+{
+    "sourceName": "Source - Minimum API Version Unsatisfied",
+    "addins": [
+        {
+            "name": "Minimum API Version Unsatisfied",
+            "metadataUrl": "https://zhanglin-wu.github.io/ChemDraw-WebSourceAddins/Add-ins/Minimum%20API%20Version%20Unsatisfied/chemdraw-addin-metadata.json"
+        }
+    ]
+}

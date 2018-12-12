@@ -48,6 +48,15 @@ Launch ChemDraw Office, and go to **Add-ins > Add-in Manager... > Add > Add from
 14. A manifest containing duplicate add-ins with an installed manifest, i.e. these two manifests contain duplicate add-ins, we can test them by installing the first manifest and then the second manifest
     - First Manifest: `https://raw.githubusercontent.com/zhanglin-wu/ChemDraw-WebSourceAddins/master/Manifests/duplicate-addins-manifest1.json`
     - Second Manifest: `https://raw.githubusercontent.com/zhanglin-wu/ChemDraw-WebSourceAddins/master/Manifests/duplicate-addins-manifest2.json`
+15. Manifests containing add-ins with invalid fields in the add-in metadata
+    - The add-in name is an empty string
+        - `https://raw.githubusercontent.com/zhanglin-wu/ChemDraw-WebSourceAddins/master/Manifests/empty-addin-name-manifest.json` 
+    - The menu-item text of the add-in is an empty string
+        - `https://raw.githubusercontent.com/zhanglin-wu/ChemDraw-WebSourceAddins/master/Manifests/empty-addin-menu-item-manifest.json`
+    - The add-in launch URL of the add-in is an empty string
+        - `https://raw.githubusercontent.com/zhanglin-wu/ChemDraw-WebSourceAddins/master/Manifests/empty-addin-launch-url-manifest.json`
+    - The required minimum API version of the add-in is not satisfied
+        - `https://raw.githubusercontent.com/zhanglin-wu/ChemDraw-WebSourceAddins/master/Manifests/addin-required-minimum-API-version-unsatisfied-manifest.json`
 
 
 ## [Add-in Examples](https://github.com/zhanglin-wu/ChemDraw-WebSourceAddins/tree/master/Add-ins)

@@ -1,0 +1,9 @@
+{
+    "sourceName": "Source - Empty Launch URL",
+    "addins": [
+        {
+            "name": "Empty Launch URL",
+            "metadataUrl": "https://zhanglin-wu.github.io/ChemDraw-WebSourceAddins/Add-ins/Empty%20Launch%20URL/chemdraw-addin-metadata.json"
+        }
+    ]
+}

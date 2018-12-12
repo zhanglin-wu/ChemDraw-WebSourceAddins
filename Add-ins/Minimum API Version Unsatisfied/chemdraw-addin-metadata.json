@@ -1,0 +1,7 @@
+{
+    "description": "This is a simple example of ChemDraw add-in of which the required minimum API version is not satisfied.",
+    "version": "1.0",
+    "menuItemText": "Minimum API Version Unsatisfied",
+    "minimumAPIVersion": "99.0",
+    "url": "https://zhanglin-wu.github.io/ChemDraw-WebSourceAddins/Add-ins/Minimum%20API%20Version%20Unsatisfied/main.html"
+}

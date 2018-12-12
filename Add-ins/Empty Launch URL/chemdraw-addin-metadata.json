@@ -1,0 +1,7 @@
+{
+    "description": "This is a simple example of ChemDraw add-in with empty launch URL.",
+    "version": "1.0",
+    "menuItemText": "Empty Launch URL",
+    "minimumAPIVersion": "1.0",
+    "url": ""
+}
