@@ -1,5 +1,5 @@
 //
-// hello-world.js
+// empty-addin-name.js
 //
 // This is a simple example of using ChemDraw Add-in API.
 //

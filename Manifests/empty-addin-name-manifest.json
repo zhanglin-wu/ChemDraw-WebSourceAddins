@@ -1,0 +1,9 @@
+{
+    "sourceName": "Empty Add-in Name",
+    "addins": [
+        {
+            "name": "",
+            "metadataUrl": "https://zhanglin-wu.github.io/ChemDraw-WebSourceAddins/Add-ins/Empty%20Add-in%20Name/chemdraw-addin-metadata.json"
+        }
+    ]
+}
