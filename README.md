@@ -13,6 +13,9 @@ See the hosted add-ins at: https://zhanglin-wu.github.io/ChemDraw-WebSourceAddin
 ### Valid Add-ins
 1. A manifest containing all valid add-ins
     - `https://raw.githubusercontent.com/zhanglin-wu/ChemDraw-WebSourceAddins/master/Manifests/all-valid-addins-manifest.json`
+2. Two manifests without dupliate add-ins
+    - `https://raw.githubusercontent.com/zhanglin-wu/ChemDraw-WebSourceAddins/master/Manifests/inorganic-group-addins-manifest.json`
+    - `https://raw.githubusercontent.com/zhanglin-wu/ChemDraw-WebSourceAddins/master/Manifests/organic-group-addins-manifest.json`
 
 ### Error Cases
 
