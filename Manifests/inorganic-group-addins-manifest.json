@@ -1,0 +1,13 @@
+{
+    "sourceName": "Inorganic Research Group",
+    "addins": [
+        {
+            "name": "Document Data Importer and Exporter",
+            "metadataUrl": "https://zhanglin-wu.github.io/ChemDraw-WebSourceAddins/Add-ins/Document%20Data%20Importer%20and%20Exporter/chemdraw-addin-metadata.json"
+        },
+        {
+            "name": "Version Viewer",
+            "metadataUrl": "https://abhimanyusirohi.github.io/test-addins/version-viewer/chemdraw-addin-metadata.json"
+        }
+    ]
+}
