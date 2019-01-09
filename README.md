@@ -6,6 +6,8 @@ Welcome to the ChemDraw web source add-in examples! This directory contains exam
 
 Launch ChemDraw Office, and go to **Add-ins > Add-in Manager... > Add > Add from URL...**, and enter a URL that directs to an add-in manifest listed in [manifest examples](https://github.com/zhanglin-wu/ChemDraw-WebSourceAddins/tree/master/Manifests).
 
+See the hosted add-ins at: https://zhanglin-wu.github.io/ChemDraw-WebSourceAddins
+
 ## [Manifest Examples](https://github.com/zhanglin-wu/ChemDraw-WebSourceAddins/tree/master/Manifests)
 
 ### Valid Add-ins
