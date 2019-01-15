@@ -1,21 +1,9 @@
 {
     "sourceName": "Amigos Team",
     "addins": [
-        {
-            "name": "Hello World",
-            "metadataUrl": "https://zhanglin-wu.github.io/ChemDraw-WebSourceAddins/Add-ins/Hello%20World/chemdraw-addin-metadata.json"
-        },
-        {
-            "name": "Document Data Importer and Exporter",
-            "metadataUrl": "https://zhanglin-wu.github.io/ChemDraw-WebSourceAddins/Add-ins/Document%20Data%20Importer%20and%20Exporter/chemdraw-addin-metadata.json"
-        },
-        {
-            "name": "Selection Monitor",
-            "metadataUrl": "https://zhanglin-wu.github.io/ChemDraw-WebSourceAddins/Add-ins/Selection%20Monitor/chemdraw-addin-metadata.json"
-        },
-        {
-            "name": "Version Viewer",
-            "metadataUrl": "https://abhimanyusirohi.github.io/test-addins/version-viewer/chemdraw-addin-metadata.json"
-        }
+        "https://zhanglin-wu.github.io/ChemDraw-WebSourceAddins/Add-ins/Hello%20World/chemdraw-addin-metadata.json",
+        "https://zhanglin-wu.github.io/ChemDraw-WebSourceAddins/Add-ins/Document%20Data%20Importer%20and%20Exporter/chemdraw-addin-metadata.json",
+        "https://zhanglin-wu.github.io/ChemDraw-WebSourceAddins/Add-ins/Selection%20Monitor/chemdraw-addin-metadata.json",
+        "https://abhimanyusirohi.github.io/test-addins/version-viewer/chemdraw-addin-metadata.json"
     ]
 }
