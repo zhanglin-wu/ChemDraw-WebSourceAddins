@@ -1,7 +1,8 @@
 {
+    "menuItemText": "API Version Viewer",
     "description": "This is a simple example of ChemDraw add-in.",
     "version": "1.0",
-    "menuItemText": "Hello World",
+    "menuItemText": "API Version Viewer",
     "minimumAPIVersion": "1.0",
     "url": "https://zhanglin-wu.github.io/ChemDraw-WebSourceAddins/Add-ins/API%20Version%20Viewer/main.html"
 }
