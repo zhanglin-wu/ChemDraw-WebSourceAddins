@@ -1,4 +1,5 @@
 {
+    "name": "Hello World",
     "description": "This is a simple example of ChemDraw add-in.",
     "version": "1.0",
     "menuItemText": "Hello World",
