@@ -1,4 +1,5 @@
 {
+    "name": "Selection Monitor",
     "description": "This is an example ChemDraw add-in that demonstrates the usage of the selection API.",
     "isModalDialog": false,
     "menuItemText": "Selection Monitor",
